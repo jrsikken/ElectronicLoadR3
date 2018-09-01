@@ -13836,7 +13836,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </part>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1u">
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="100pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14011,7 +14011,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </spice>
 <attribute name="DIGIKEY" value="RMCF0603JT150RCT-ND"/>
 </part>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1u">
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="10n">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14272,11 +14272,13 @@ fastest current settle time.</text>
 <instance part="R2" gate="G$1" x="105.41" y="45.72">
 <attribute name="DIGIKEY" x="105.41" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="96.52" y="40.64" rot="R180">
+<instance part="C5" gate="G$1" x="96.52" y="40.64" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" x="96.52" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="TEMPCOEFF" x="96.52" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="TOLERANCE" x="96.52" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="VOLTAGE" x="96.52" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="91.694" y="38.481" size="1.778" layer="95"/>
+<attribute name="VALUE" x="98.044" y="38.481" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="96.52" y="34.29"/>
 <instance part="IC1" gate="A" x="152.4" y="67.31" smashed="yes">
